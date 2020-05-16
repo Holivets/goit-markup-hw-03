@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -32,129 +36,133 @@
       </nav>
     </header>
     <main>
-      <section>
-        <!-- уявний заголовок -->
-        <h1 class="fake-title">Примеры работ</h1>
-        <ul class="portfolio-filter">
-          <li><button type="button" class="filter-buttons">Все</button></li>
-          <li>
-            <button type="button" class="filter-buttons">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="filter-buttons">Приложения</button>
-          </li>
-          <li><button type="button" class="filter-buttons">Дизайн</button></li>
-          <li>
-            <button type="button" class="filter-buttons">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="work-examples">
-          <li>
-            <a href=""
-              ><img src="./images/macbook.jpg" alt="макбук" />
-              <h2 class="examples-name">Технокряк</h2>
-              <p class="examples-type">Веб-сайт</p>
-              <p class="examples-information">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/basketball.jpg" alt="баскетбол" />
-              <h2 class="examples-name">Постер New Orlean vs Golden Stars</h2>
-              <p class="examples-type">Дизайн</p>
-              <p class="examples-information">
-                Классический текст-«рыба» (условный, зачастую бессмысленный
-                текст-заполнитель, вставляемый в макет страницы).
-              </p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/seafood.jpg" alt="ресторан Сифуд" />
-              <h2 class="examples-name">Ресторан Seafood</h2>
-              <p class="examples-type">Приложение</p>
-              <p class="examples-information">
-                Lorem ipsum dolor sit amet, eu errem eloquentiam pro. Fuisset
-                platonem postulant eos id, ut mazim legere pri, nostrud debitis
-                no usu.
-              </p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/earphones.jpg" alt="наушники" />
-              <h2 class="examples-name">Проект Prime</h2>
-              <p class="examples-type">Маркетинг</p>
-              <p class="examples-information">
-                Reprimique eloquentiam ex has, at rebum tempor nec. Qui
-                molestiae conclusionemque ut. Quo denique theophrastus ea, an
-                his justo deseruisse.
-              </p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/boxes.jpg" alt="коробки" />
-              <h2 class="examples-name">Проект Boxes</h2>
-              <p class="examples-type">Приложение</p>
-              <p class="examples-information">
-                Классический текст-«рыба» (условный, зачастую бессмысленный
-                текст-заполнитель, вставляемый в макет страницы).
-              </p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/imac.jpg" alt="аймак" />
-              <h2 class="examples-name">Inspiration has no Borders</h2>
-              <p class="examples-type">Веб-сайт</p>
-              <p class="examples-information">
-                Lorem ipsum dolor sit amet, eu errem eloquentiam pro. Fuisset
-                platonem postulant eos id, ut mazim legere pri, nostrud debitis
-                no usu.
-              </p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/magazines.jpg" alt="жунрал" />
-              <h2 class="examples-name">Издание Limited Edition</h2>
-              <p class="examples-type">Дизайн</p>
-              <p class="examples-information">
-                Reprimique eloquentiam ex has, at rebum tempor nec. Qui
-                molestiae conclusionemque ut. Quo denique theophrastus ea, an
-                his justo deseruisse.
-              </p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/label_tag.jpg" alt="бирка" />
-              <h2 class="examples-name">Проект LAB</h2>
-              <p class="examples-type">Маркетинг</p>
-              <p class="examples-information">
-                Классический текст-«рыба» (условный, зачастую бессмысленный
-                текст-заполнитель, вставляемый в макет страницы).
-              </p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/laptop_photo.jpg" alt="ноутбук" />
-              <h2 class="examples-name">Growing Business</h2>
-              <p class="examples-type">Приложение</p>
-              <p class="examples-information">
-                Lorem ipsum dolor sit amet, eu errem eloquentiam pro. Fuisset
-                platonem postulant eos id, ut mazim legere pri, nostrud debitis
-                no usu.
-              </p></a
-            >
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <!-- уявний заголовок -->
+          <h1 class="fake-title">Примеры работ</h1>
+          <ul class="portfolio-filter">
+            <li><button type="button" class="filter-buttons">Все</button></li>
+            <li>
+              <button type="button" class="filter-buttons">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button" class="filter-buttons">Приложения</button>
+            </li>
+            <li>
+              <button type="button" class="filter-buttons">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="filter-buttons">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="work-examples">
+            <li>
+              <a href=""
+                ><img src="./images/macbook.jpg" alt="макбук" />
+                <h2 class="examples-name">Технокряк</h2>
+                <p class="examples-type">Веб-сайт</p>
+                <p class="examples-information">
+                  Технокряк это современная площадка распространения
+                  коронавируса. Компании используют эту платформу для цифрового
+                  шпионажа и атак на защищённые сервера конкурентов.
+                </p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/basketball.jpg" alt="баскетбол" />
+                <h2 class="examples-name">Постер New Orlean vs Golden Stars</h2>
+                <p class="examples-type">Дизайн</p>
+                <p class="examples-information">
+                  Классический текст-«рыба» (условный, зачастую бессмысленный
+                  текст-заполнитель, вставляемый в макет страницы).
+                </p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/seafood.jpg" alt="ресторан Сифуд" />
+                <h2 class="examples-name">Ресторан Seafood</h2>
+                <p class="examples-type">Приложение</p>
+                <p class="examples-information">
+                  Lorem ipsum dolor sit amet, eu errem eloquentiam pro. Fuisset
+                  platonem postulant eos id, ut mazim legere pri, nostrud
+                  debitis no usu.
+                </p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/earphones.jpg" alt="наушники" />
+                <h2 class="examples-name">Проект Prime</h2>
+                <p class="examples-type">Маркетинг</p>
+                <p class="examples-information">
+                  Reprimique eloquentiam ex has, at rebum tempor nec. Qui
+                  molestiae conclusionemque ut. Quo denique theophrastus ea, an
+                  his justo deseruisse.
+                </p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/boxes.jpg" alt="коробки" />
+                <h2 class="examples-name">Проект Boxes</h2>
+                <p class="examples-type">Приложение</p>
+                <p class="examples-information">
+                  Классический текст-«рыба» (условный, зачастую бессмысленный
+                  текст-заполнитель, вставляемый в макет страницы).
+                </p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/imac.jpg" alt="аймак" />
+                <h2 class="examples-name">Inspiration has no Borders</h2>
+                <p class="examples-type">Веб-сайт</p>
+                <p class="examples-information">
+                  Lorem ipsum dolor sit amet, eu errem eloquentiam pro. Fuisset
+                  platonem postulant eos id, ut mazim legere pri, nostrud
+                  debitis no usu.
+                </p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/magazines.jpg" alt="жунрал" />
+                <h2 class="examples-name">Издание Limited Edition</h2>
+                <p class="examples-type">Дизайн</p>
+                <p class="examples-information">
+                  Reprimique eloquentiam ex has, at rebum tempor nec. Qui
+                  molestiae conclusionemque ut. Quo denique theophrastus ea, an
+                  his justo deseruisse.
+                </p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/label_tag.jpg" alt="бирка" />
+                <h2 class="examples-name">Проект LAB</h2>
+                <p class="examples-type">Маркетинг</p>
+                <p class="examples-information">
+                  Классический текст-«рыба» (условный, зачастую бессмысленный
+                  текст-заполнитель, вставляемый в макет страницы).
+                </p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/laptop_photo.jpg" alt="ноутбук" />
+                <h2 class="examples-name">Growing Business</h2>
+                <p class="examples-type">Приложение</p>
+                <p class="examples-information">
+                  Lorem ipsum dolor sit amet, eu errem eloquentiam pro. Fuisset
+                  platonem postulant eos id, ut mazim legere pri, nostrud
+                  debitis no usu.
+                </p></a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
