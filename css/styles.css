@@ -203,7 +203,7 @@ nav {
 .team.flex {
   display: flex;
 }
-.team li {
+.team > li {
   width: 278px;
 }
 .member-name {
